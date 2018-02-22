@@ -1,0 +1,27 @@
+{
+  "name": "npm-test",
+  "version": "2.0.0",
+  "description": "an awesome package",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine && exit 1",
+    "prestart": "echo hello PRE start!",
+    "start": "node ./index.js",
+    "prefun": "echo about to have fun!",
+    "fun": "echo having fun!",
+    "postfun": "echo after fun!"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.3.2"
+  },
+  "dependencies": {
+    "karma": "^0.13.9",
+    "semver": "^5.0.1"
+  },
+  "config": {
+    "port": 9999,
+    "boo": "hoo"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "yeoman-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-karma": "*",
+    "karma-jasmine": "*",
+    "karma-phantomjs-launcher": "*"
+  },
+  "scripts": {
+    "test": "karma start --single-run test/karma.conf.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

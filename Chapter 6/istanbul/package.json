@@ -1,0 +1,19 @@
+{
+  "name": "futbol",
+  "version": "1.0.0",
+  "description": "futbol fun!",
+  "main": "index.js",
+  "dependencies": {
+    "csv-parse": "^1.0.0",
+    "jasmine": "^2.3.2"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.18",
+    "jasmine": "^2.3.2"
+  },
+  "scripts": {
+    "test": "istanbul cover jasmine"
+  },
+  "author": "mark@zzo.com",
+  "license": "ISC"
+}

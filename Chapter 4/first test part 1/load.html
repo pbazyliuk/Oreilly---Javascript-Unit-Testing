@@ -1,0 +1,10 @@
+<h1>Star Wars People Fetcher</h1>
+<div id="person"></div>
+<p />
+<form id="getPerson">
+<label>Enter Person ID:</label><input type="number" id="pid" min="1" max="87" required></input>
+</form>
+<script src="fetch_good.js"></script>
+<script>
+window.addEventListener('load', function() { handleForm(document.getElementById('getPerson')); });
+</script>

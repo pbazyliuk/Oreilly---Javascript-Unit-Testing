@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner for jquery matchers</title>
+
+  <link rel="shortcut icon" type="image/png" href="lib/jasmine_favicon.png">
+  <link rel="stylesheet" href="lib/jasmine.css">
+
+  <script src="lib/jasmine.js"></script>
+  <script src="lib/jasmine-html.js"></script>
+  <script src="lib/boot.js"></script>
+
+  <!-- 3rd party libs -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="lib/jasmine-jquery.js"></script>
+
+  <!-- include spec files here... -->
+  <script src="jqueryMatchersSpec.js"></script>
+</head>
+
+<body>
+  <form>
+    <input type="checkbox" checked></input>
+    <input id="textId" type="text" value="disabled" disabled></input>
+    <select>
+      <option selected> Pick Me! </option>
+      <option id="second-option">What about me?</option>
+    </select>
+  </form>
+  <div id="empty"></div>
+  <div id="hidden" style="display: none"></div>
+  <div id="contain">
+    <div class="contained">contained</div>
+  </div>
+  <div id="css" style="border: red"></div>
+</body>
+</html>

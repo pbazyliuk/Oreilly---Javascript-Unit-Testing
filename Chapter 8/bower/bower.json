@@ -1,0 +1,21 @@
+{
+  "name": "testApp",
+  "version": "0.0.0",
+  "authors": [
+    "Mark Ethan Trostler <mark@zzo.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "~1.11.4",
+    "angular": "~1.4.5",
+    "jquery": "~2.1.4"
+  }
+}
